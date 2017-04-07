@@ -1,0 +1,99 @@
+
+Elemente generale:
+------------------------------------
+- integrarea design-ului din folderul _psd intr-un mod responsive (aceeasi structura de HTML sa se preteze pe rezolutii de monitor, respectiv tableta + telefon).
+- site-ul trebuie sa apara centrat pe ecran la orice rezolutie mai mare sau egala cu 1024px;
+- link-urile nu au efect de underline
+- este recomandata (dar nu obligatorie) folosirea efectelor de CSS3 + fallback pentru IE7-8 (ex: glow sau drop shadow);
+- folosirea a cel putin 2: Webkit Animations si/sau Transforms
+
+
+
+Fonts
+------------------------------------
+Fonturi folosite:  NeoSans + Arial
+- cautati si descarcati de pe net fontul NeoSans
+- in cazul in care nu reusiti, puteti folosi un font asemanator (la alegere)
+
+
+
+Compatibilitate pe browsere:
+-------------------------------------
+- Internet Explorer 7, 8, 9
+- Firefox
+- Chrome
+- la versiunea mobila (sisteme de operare mai mare sau egal cu iOs 5.0 respectiv Android 2.3)
+
+
+
+Detectare mobil / rezolutie mica:
+------------------------------------
+- schimbarea design-ului trebuie sa se faca prin oricare din urmatoarele cazuri:
+	- detectare device mobil
+	- detectare rezolutie mai mica de 1024px
+
+
+
+Banner
+------------------------------------	
+- slide-urile bannerului trebuie sa se schimbe la accesarea butoanelor de #prev si #next (vezi: _jpg / 01.jpg + 02.jpg)
+- efect de tranzitie: fade sau slide
+
+
+
+Form Login
+------------------------------------
+- aparitia / disparitia form-ului login se face prin accesarea link-ului de "Login" (vezi _jpg / 03.jpg)
+
+
+
+Validare Form:
+------------------------------------
+- dand click pe input-urile de email / password (focus) acestea trebuie sa goleasca continutului default (existent)
+- la iesirea de pe input-ul de email trebuie validat continutul acestuia:
+- in cazul in care la iesire, nu exista continut se repune textul default
+- la intrarea (focus) pe input-ul de parola, acesta trece din format text in format password.
+- la iesirea de pe input-ul de parola trebuie validat continutul acestuia:
+- in cazul in care la iesire, nu exista continut se repune textul default in format text, in caz contrar, daca exista continut, acesta ramane in format password
+
+
+
+Accesare butoane mari (01, 02, 03, 04)
+------------------------------------
+- accesarea unui buton din cele patru existente (01 / 02 / 03 04) duce la afisarea  / ascunderea continutul aflat "sub acesta" (vezi _jpg / 04.jpg)
+- aparitia continutului va impinge in jos unitatile aflate sub el (vezi _jpg / 04.jpg)
+
+
+
+ Accesare butone mici (Work abo..., Test text..., Just a sim..., Nothing h...)
+------------------------------------
+- textele din butoane pot avea orice dimensiune;
+- textul trebuie sa fie "taiat" (trim cu CSS / jQuery) la limita impusa de design
+- accesarea unui buton din cele patru existente duce la afisarea  / ascunderea continutului aflat "sub acesta" (vezi _jpg / 05.jpg)
+- aparitia continutului va impinge in jos unitatile aflate sub el (vezi _jpg / 05.jpg)
+
+
+
+View more
+------------------------------------
+- la accesarea link-ului "view more" va trebui sa-si faca aparitia inca un set de 4 butoane (vezi _jpg / 06.jpg)
+- acestea vor avea aceeasi functionalitate ca si primul set de butoane (descrise mai sus)
+
+
+
+Slider continut
+------------------------------------
+- slide-urile slider-ului de continut trebuie sa se schimbe la apasarea butoanelor de #prev si #next (vezi: _jpg / 01.jpg + 02.jpg)
+- efect de tranzitie: fade sau slide
+
+
+
+Versiune mobila
+------------------------------------
+- functionalitatile pe versiunea mobila sunt identice cu cele din versiunea Desktop
+- singurele modificari sunt cele impuse de design / rezolutie.
+- rezolutia minima pana la care site-ul trebuie sa isi pastreze aspectul din design este 320px (latime)
+- folosirea event-urilor de touch/swipe
+
+
+
